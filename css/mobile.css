@@ -1,0 +1,32 @@
+#global
+{
+    max-width: 100%;
+    margin: auto;
+}
+
+.fonctionnement p
+{
+    width: 70%;
+    display: inline-block;
+}
+
+.block_restaurant
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.restaurant {
+    width: 97%;
+    height: 270px;
+  }
+  
+  .restaurant img {
+    width: 100%;
+    height: 190px;
+  }
+
+  .icons_title
+  {
+      width: 96%;
+  }
