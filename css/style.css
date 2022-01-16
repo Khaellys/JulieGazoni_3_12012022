@@ -219,14 +219,15 @@ input {
 }
 
 .plein {
-  visibility: collapse;
+  opacity: 0;
 }
 
 .fa-heart:hover {
   -webkit-background-clip: text;
-  color: #9356DC;
   -webkit-text-fill-color: transparent;
+  color: #9356DC;
   background-color: #9356DC;
+  transition: background-color 850ms;
   opacity: 1;
 }
 

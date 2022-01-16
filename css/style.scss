@@ -297,15 +297,16 @@ input
 
 .plein
 {
-	visibility: collapse;
+	opacity: 0;
 }
 
 .fa-heart:hover
 {
 	-webkit-background-clip: text;
-    color: $primary-color;
 	-webkit-text-fill-color: transparent;
+	color: $primary-color;
 	background-color: $primary-color;
+	transition: background-color 850ms;
 	opacity: 1;
 }
 
