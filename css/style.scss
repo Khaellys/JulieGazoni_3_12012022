@@ -1,5 +1,8 @@
 /*-------Polices-------*/
 
+
+
+
 @font-face {
     font-family: 'robotolight';
     src: url('../polices/Roboto-Light-webfont.eot');
@@ -9,6 +12,19 @@
          url('../polices/Roboto-Light-webfont.ttf') format('truetype'),
          url('../polices/Roboto-Light-webfont.svg#robotolight') format('svg');
     font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../polices/Roboto-Regular-webfont.eot');
+    src: url('../polices/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../polices/Roboto-Regular-webfont.woff2') format('woff2'),
+         url('../polices/Roboto-Regular-webfont.woff') format('woff'),
+         url('../polices/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../polices/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    
     font-style: normal;
 
 }
@@ -26,8 +42,7 @@
 
 }
 
-@font-face
-{
+@font-face {
 	font-family: 'Shrikhand-Regular';
 	src: url('../polices/Shrikhand-Regular.ttf') format('truetype');
 	font-weight: normal;
@@ -60,6 +75,7 @@ body
 a
 {
 	color: black;
+	text-decoration: none;
 }
 
 a:visited
@@ -70,6 +86,7 @@ a:visited
 h2
 {
 	font-family: 'robotobold';
+	font-weight: normal;
 }
 
 /*-------Blocs Header, Rechercher & Présentation-------*/
@@ -99,10 +116,16 @@ button, input
 	background-color:#EAEAEA;
 }
 
-#search
+input
+{
+	width: 130px;
+}
+
+#search::placeholder
 {
 	font-family: 'robotobold';
 	color: black;
+	opacity: 1;
 	padding-left: 10px;
 }
 
@@ -132,9 +155,17 @@ button, input
 {
 	padding-left: 20px;
 	padding-top: 30px;
+	
+}
+.fonctionnement h2
+{
+	text-align: center;
+}
+
+.fonctionnement .liste
+{
 	display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 	margin: auto;
 }
 
@@ -147,6 +178,8 @@ button, input
 	background-color: #F6F6F6;
 	box-shadow: 1px 10px 14px 5px rgba(222,214,214,0.75);
 	font-family: 'robotobold';
+	position: relative;
+	
 }
 
 .fonctionnement .icons
@@ -163,10 +196,11 @@ span
 	padding: 5px 10px;
 }
 
-#number1, #number2, #number3
+#number
 {
 	position: absolute;
-	left: 10px;
+	left: -12px;
+	top: 35%;
 }
 
 .icons
@@ -199,7 +233,7 @@ span
 	flex-wrap: wrap;
 	align-items: stretch;
 	justify-content: space-between;
-	padding-left: 20px;
+	padding: 0 20px;
 }
 
 .restaurant
@@ -248,6 +282,13 @@ span
 	padding-top: 20px;
 }
 
+.fa-heart:hover
+{
+	color: $secondary-color;
+	background-color: $secondary-color;
+	opacity: 1;
+}
+
 /*-------Insert logo Nouveau-------*/
 
 .news
@@ -276,6 +317,11 @@ footer
 	color: white;
 	margin: 60px 0 0 0;
 	padding: 20px 0 20px 20px;
+}
+
+footer a
+{
+	color: white;
 }
 
 .titre

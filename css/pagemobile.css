@@ -1,0 +1,98 @@
+.global {
+  text-align: inherit;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.restaurant {
+  display: block;
+  position: relative;
+  z-index: 0;
+}
+
+.title {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.fa-heart {
+  padding-top: 25px;
+}
+
+.menu {
+  background-color: #f1f1f1;
+  position: relative;
+  z-index: 1;
+  bottom: 60px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding: 20px 0 5px 10px;
+}
+
+.plat {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 60px;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.global p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 12px;
+}
+
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+
+/*# sourceMappingURL=pagemobile.css.map */

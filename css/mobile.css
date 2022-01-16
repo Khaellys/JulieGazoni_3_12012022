@@ -1,32 +1,44 @@
-#global
-{
-    max-width: 100%;
-    margin: auto;
+#global {
+  max-width: 100%;
+  margin: auto;
 }
 
-.fonctionnement p
-{
-    width: 70%;
-    display: inline-block;
+/*-------Bloc Fonctionnement-------*/
+.fonctionnement .liste {
+  display: flex;
+  flex-direction: column;
 }
 
-.block_restaurant
-{
-    display: flex;
-    flex-direction: column;
+.fonctionnement h2 {
+  text-align: left;
+}
+
+.fonctionnement p {
+  width: 70%;
+  display: inline-block;
+}
+
+/*-------Bloc Preview-------*/
+.block_restaurant {
+  display: flex;
+  flex-direction: column;
 }
 
 .restaurant {
-    width: 97%;
-    height: 270px;
-  }
-  
-  .restaurant img {
-    width: 100%;
-    height: 190px;
-  }
+  width: 97%;
+  height: 270px;
+}
 
-  .icons_title
-  {
-      width: 96%;
-  }
+.restaurant img {
+  width: 100%;
+  height: 190px;
+}
+
+.icons_title {
+  width: 96%;
+}
+
+/*# sourceMappingURL=mobile.css.map */
+/*# sourceMappingURL=mobile.css.map */
+
+/*# sourceMappingURL=mobile.css.map */

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./style.scss:./style.css",
+    "sass": "sass --watch ./:../css",
     "prefix": "postcss ./style.css --use autoprefixer -d ./prefixed/"
   },
   "author": "",

@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
 		<link rel="stylesheet" href="css/mobile.css" type="text/css" media="screen and (max-width: 380px)" />
+		<link rel="stylesheet" href="css/tablette.css" type="text/css" media="screen and (max-width: 992px) and (min-width: 381px)" />
         <link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 	</head>
@@ -26,11 +27,11 @@
 	</section>
 	<section class="fonctionnement">
 		<h2>Fonctionnement</h2>
-		<div id="liste">
-		<p><span id="number1">1</span><i class="fas fa-mobile-alt icons"></i>Choisissez un restaurant</p>
-		<p><span id="number2">2</span><i class="fas fa-list-ul icons"></i>Composez votre menu</p>
-		<p><span id="number3">3</span><i class="fas fa-store icons"></i>Dégustez au restaurant</p>
-		</div>
+		<div class="liste">
+		<p><span id="number">1</span><i class="fas fa-mobile-alt icons"></i>Choisissez un restaurant</p>
+		<p><span id="number">2</span><i class="fas fa-list-ul icons"></i>Composez votre menu</p>
+		<p><span id="number">3</span><i class="fas fa-store icons"></i>Dégustez au restaurant</p>
+	</div>
 	</section>
     <section class="preview">
     <h2>Restaurants</h2>
@@ -49,7 +50,7 @@
 					<a href="#">
 						<article class="restaurant">
 							<div class="news">
-							<img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="palette">
+							<img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="note">
 							<div class="nouveauté">Nouveau</div>
 						</div>
 							<div class="icons_title">
@@ -59,15 +60,15 @@
 					</a>
 					<a href="#">
 						<article class="restaurant">
-							<img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="palette">
+							<img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="française">
 							<div class="icons_title">
 								<p class="name">À la française</p><i class="far fa-heart"></i></div>
-								<p class="city">Cité rouge</p>
+								<p class="city">Cité Rouge</p>
 						</article>
 					</a>
 					<a href="#">
 						<article class="restaurant">
-							<img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="palette">
+							<img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="délice">
 							<div class="icons_title">
 								<p class="name">Le délice des sens</p><i class="far fa-heart"></i></div>
 								<p class="city">Folie-Méricourt</p>
@@ -77,10 +78,10 @@
     </section>
 	<footer>
 		<p class="titre">ohmyfood</p>
-		<p><i class="fas fa-utensils icons"></i>Proposer un restaurant</p>
-		<p><i class="fas fa-hands-helping icons"></i>Devenir partenaire</p>
+		<p><i class="fas fa-utensils"></i>Proposer un restaurant</p>
+		<p><i class="fas fa-hands-helping"></i>Devenir partenaire</p>
 		<p>Mentions légales</p>
-		<p>Contact</p>
+		<p><a href='exemple@exemple.com'>Contact</a></p>
 	</footer>
 
 </div>
