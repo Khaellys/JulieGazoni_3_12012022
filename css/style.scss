@@ -49,6 +49,18 @@
 	font-style: normal;
 }
 
+/*-------Mixin-------*/
+
+@mixin shadow {
+	-webkit-box-shadow: 1px 10px 12px 4px rgba(190,190,190,0.55); 
+box-shadow: 1px 10px 12px 4px rgba(190,190,190,0.55);
+}
+
+@mixin hover_shadow {
+	-webkit-box-shadow: 1px 10px 12px 4px rgba(4,4,4,0.55); 
+box-shadow: 1px 10px 12px 4px rgba(4,4,4,0.55);
+}
+
 /*-------Chartre graphique-------*/
 
 $primary-color: #9356DC;
@@ -145,7 +157,7 @@ input
 	display: inline-block;
 	background: radial-gradient(ellipse farthest-corner at bottom right, $primary-color, $secondary-color);
 	color: white;
-	box-shadow: 1px 10px 14px 5px rgba(222,214,214,0.75);
+	@include shadow;
 	font-weight: bold;
 }
 
@@ -176,7 +188,7 @@ input
 	padding: 30px;
 	width: 250px;
 	background-color: #F6F6F6;
-	box-shadow: 1px 10px 14px 5px rgba(222,214,214,0.75);
+	@include shadow;
 	font-family: 'robotobold';
 	position: relative;
 	
@@ -187,20 +199,16 @@ input
 	color: grey;
 }
 
-span
-{
-	color: white;
-	border: 2px solid $primary-color;
-	background-color: $primary-color;
-	border-radius: 40px;
-	padding: 5px 10px;
-}
-
 #number
 {
 	position: absolute;
 	left: -12px;
 	top: 35%;
+	color: white;
+	border: 2px solid $primary-color;
+	background-color: $primary-color;
+	border-radius: 40px;
+	padding: 5px 10px;
 }
 
 .icons
@@ -242,7 +250,7 @@ span
 	height: 280px;
 	border-radius: 15px;
 	background-color: white;
-	box-shadow: 1px 10px 14px 5px rgba(222,214,214,0.75);
+	@include shadow;
 	margin: 20px 0;
 }
 
@@ -255,12 +263,7 @@ span
 	object-fit: cover;
 }
 
-.icons_title
-{
-	display: flex;
-	justify-content: space-between;
-	width: 380px;
-}
+
 .name
 {
     font-family: 'robotobold';
@@ -277,15 +280,32 @@ span
 	padding-left: 10px;
 }
 
-.fa-heart
+/*------- Placement & Animation coeur-------*/
+
+
+.icons_title
 {
-	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	width: 380px;
+}
+
+.coeur, .plein, .vide
+{
+	padding-top: 10px;
+}
+
+.plein
+{
+	visibility: collapse;
 }
 
 .fa-heart:hover
 {
-	color: $secondary-color;
-	background-color: $secondary-color;
+	-webkit-background-clip: text;
+    color: $primary-color;
+	-webkit-text-fill-color: transparent;
+	background-color: $primary-color;
 	opacity: 1;
 }
 

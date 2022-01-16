@@ -46,6 +46,18 @@
 	font-style: normal;
 }
 
+/*-------Mixin-------*/
+
+@mixin shadow {
+    -webkit-box-shadow: 1px 10px 12px 4px rgba(190,190,190,0.55); 
+box-shadow: 1px 10px 12px 4px rgba(190,190,190,0.55);
+}
+
+@mixin hover_shadow {
+	-webkit-box-shadow: 1px 10px 12px 4px rgba(4,4,4,0.55); 
+box-shadow: 1px 10px 12px 4px rgba(4,4,4,0.55);
+}
+
 /*-------Chartre graphique-------*/
 
 $primary-color: #9356DC;
@@ -137,7 +149,7 @@ span
     padding: 5px;
     width: 350px;
     background-color: white;
-    box-shadow: 1px 10px 14px 5px rgba(222, 214, 214, 0.75);
+    @include shadow;
 }
 
 .prix
@@ -165,9 +177,16 @@ button
 	padding: 15px 40px;
     background: radial-gradient(ellipse farthest-corner at bottom right, $primary-color, $secondary-color);
 	color: white;
-	box-shadow: 1px 10px 14px 5px rgba(222,214,214,0.75);
+	@include shadow;
 	font-weight: bold;
     cursor: pointer;
+}
+
+button:hover
+{
+    opacity: 0.75;
+    @include hover_shadow;
+    transition-duration: 400ms;
 }
 
 /*-------Bloc Footer-------*/

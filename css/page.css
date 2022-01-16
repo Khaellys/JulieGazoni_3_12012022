@@ -26,6 +26,7 @@
   font-weight: normal;
   font-style: normal;
 }
+/*-------Mixin-------*/
 /*-------Chartre graphique-------*/
 /*-------Général-------*/
 body {
@@ -97,7 +98,8 @@ span {
   padding: 5px;
   width: 350px;
   background-color: white;
-  box-shadow: 1px 10px 14px 5px rgba(222, 214, 214, 0.75);
+  -webkit-box-shadow: 1px 10px 12px 4px rgba(190, 190, 190, 0.55);
+  box-shadow: 1px 10px 12px 4px rgba(190, 190, 190, 0.55);
 }
 
 .prix {
@@ -119,9 +121,17 @@ button {
   padding: 15px 40px;
   background: radial-gradient(ellipse farthest-corner at bottom right, #9356DC, #FF79DA);
   color: white;
-  box-shadow: 1px 10px 14px 5px rgba(222, 214, 214, 0.75);
+  -webkit-box-shadow: 1px 10px 12px 4px rgba(190, 190, 190, 0.55);
+  box-shadow: 1px 10px 12px 4px rgba(190, 190, 190, 0.55);
   font-weight: bold;
   cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.75;
+  -webkit-box-shadow: 1px 10px 12px 4px rgba(4, 4, 4, 0.55);
+  box-shadow: 1px 10px 12px 4px rgba(4, 4, 4, 0.55);
+  transition-duration: 400ms;
 }
 
 /*-------Bloc Footer-------*/
@@ -147,7 +157,6 @@ footer a {
   padding-right: 13px;
 }
 
-/*# sourceMappingURL=page.css.map */
 /*# sourceMappingURL=page.css.map */
 
 /*# sourceMappingURL=page.css.map */
