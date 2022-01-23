@@ -4,6 +4,13 @@
   border-top-right-radius: 15px;
 }
 
+/*-------Section-------*/
+.title {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
 .restaurant {
   display: block;
   position: relative;
@@ -36,6 +43,7 @@
   width: 90%;
   height: 60px;
   padding: 5px;
+  margin: inherit;
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -46,6 +54,32 @@
   margin-left: 12px;
 }
 
+article h3 {
+  text-align: left;
+}
+
+/*-------Bouton Commander-------*/
+.bouton {
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
 /*# sourceMappingURL=pagemobile.css.map */
 /*# sourceMappingURL=pagemobile.css.map */
 /*# sourceMappingURL=pagemobile.css.map */

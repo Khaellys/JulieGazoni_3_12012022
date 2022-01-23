@@ -72,20 +72,13 @@ header, .rechercher, .présentation {
   padding: 10px 0;
 }
 
-button, input {
+button {
   border: transparent;
   background-color: #EAEAEA;
 }
 
-input {
-  width: 130px;
-}
-
-#search::placeholder {
-  font-family: "robotobold";
-  color: black;
-  opacity: 1;
-  padding-left: 10px;
+.fa-map-marker-alt {
+  padding-right: 10px;
 }
 
 /*-------Bloc Présentation-------*/
@@ -94,16 +87,28 @@ input {
   padding: 40px 20px;
 }
 
+/*-------Bouton Explorer-------*/
 .explorer {
   border: solid 1px transparent;
   border-radius: 30px;
   padding: 15px;
   display: inline-block;
   background: radial-gradient(ellipse farthest-corner at bottom right, #9356DC, #FF79DA);
-  color: white;
   -webkit-box-shadow: 1px 10px 12px 4px rgba(190, 190, 190, 0.55);
   box-shadow: 1px 10px 12px 4px rgba(190, 190, 190, 0.55);
+  cursor: pointer;
+}
+
+.explorer a {
+  color: white;
   font-weight: bold;
+}
+
+.explorer:hover {
+  opacity: 0.75;
+  -webkit-box-shadow: 1px 10px 12px 4px rgba(4, 4, 4, 0.55);
+  box-shadow: 1px 10px 12px 4px rgba(4, 4, 4, 0.55);
+  transition-duration: 400ms;
 }
 
 /*-------Bloc Fonctionnement-------*/
@@ -138,7 +143,7 @@ input {
   color: grey;
 }
 
-#number {
+.number {
   position: absolute;
   left: -12px;
   top: 35%;
@@ -157,6 +162,7 @@ input {
 .preview {
   background-color: #F6F6F6;
   padding-top: 30px;
+  padding-bottom: 60px;
   margin-top: 40px;
 }
 
@@ -252,7 +258,6 @@ input {
 footer {
   background-color: #353535;
   color: white;
-  margin: 60px 0 0 0;
   padding: 20px 0 20px 20px;
 }
 

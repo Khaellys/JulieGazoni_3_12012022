@@ -39,6 +39,7 @@ body {
 
 a {
   color: black;
+  text-decoration: none;
 }
 
 a:visited {
@@ -54,38 +55,64 @@ h3 {
 header {
   max-width: 100%;
   text-align: center;
+  position: relative;
 }
 
 #logo {
-  padding: 30px 0 20px;
+  padding: 30px 0 20px 0;
   max-width: 50%;
 }
 
+.fa-arrow-left {
+  top: 50%;
+  left: 10%;
+  position: absolute;
+}
+
 /*-------Section-------*/
+.global {
+  max-width: 100%;
+  text-align: center;
+  background-color: #f1f1f1;
+  padding-bottom: 40px;
+}
+
 .restaurant {
   width: 100%;
   height: 400px;
   object-fit: cover;
 }
 
-.global {
-  max-width: 100%;
-  text-align: center;
-  background-color: #f1f1f1;
-}
-
-.title {
+.titre {
   display: flex;
   justify-content: space-around;
-  width: 50%;
+  width: 350px;
+  margin: auto;
 }
 
 .fa-heart {
   padding-top: 25px;
 }
 
+/*-------Section Carte des menus-------*/
+article {
+  max-width: 1680px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+
 h2 {
   font-family: "Shrikhand-Regular";
+}
+
+hr {
+  width: 40px;
+  border: 2px solid #99E2D0;
+  margin-top: -0.5em;
+  color: #99E2D0;
+  background-color: #99E2D0;
 }
 
 span {
@@ -95,16 +122,36 @@ span {
 .plat {
   border: solid 1px transparent;
   border-radius: 15px;
-  padding: 5px;
+  padding: 5px 30px;
+  margin: 20px;
   width: 350px;
+  display: flex;
+  flex-direction: column;
   background-color: white;
   -webkit-box-shadow: 1px 10px 12px 4px rgba(190, 190, 190, 0.55);
   box-shadow: 1px 10px 12px 4px rgba(190, 190, 190, 0.55);
 }
 
-.prix {
+.nom p, .description p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.description {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: nowrap;
+}
+
+.description p {
+  width: 280px;
+}
+
+.prix {
+  text-align: end;
 }
 
 /*-------Bouton Commander-------*/
@@ -113,6 +160,7 @@ span {
   justify-content: center;
   align-items: center;
   margin: auto;
+  margin-top: 30px;
 }
 
 button {

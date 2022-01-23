@@ -17,26 +17,29 @@
 	<section class="rechercher">
 		<form method="post" action="traitement.php">
 			<p>
-				<button class="maps"><i class="fas fa-map-marker-alt"></i></button><input type="search" name="ville" id="search" placeholder="Paris, Belleville" />
+				<button class="maps"><i class="fas fa-map-marker-alt"></i></button><span class="search">Paris, Belleville</span>
 			</p>
-		</section>
+			</form>
+	</section>
 		<section class="présentation">
 			<h2>Réservez le menu qui vous convient</h2>
 			<p>Découvrez des restaurants d'exception, sélectionnés par nos soins</p>
-			<div class="explorer">Explorer nos restaurants</div>
+			<div class="bouton">	
+			<button class="explorer" type="button"><a href="#restaurants">Explorer nos restaurants</a></button>
+			</div>
 	</section>
 	<section class="fonctionnement">
-		<h2>Fonctionnement</h2>
+		<h2 id="restaurants">Fonctionnement</h2>
 		<div class="liste">
-		<p><span id="number">1</span><i class="fas fa-mobile-alt icons"></i>Choisissez un restaurant</p>
-		<p><span id="number">2</span><i class="fas fa-list-ul icons"></i>Composez votre menu</p>
-		<p><span id="number">3</span><i class="fas fa-store icons"></i>Dégustez au restaurant</p>
+		<p><span class="number">1</span><i class="fas fa-mobile-alt icons"></i>Choisissez un restaurant</p>
+		<p><span class="number">2</span><i class="fas fa-list-ul icons"></i>Composez votre menu</p>
+		<p><span class="number">3</span><i class="fas fa-store icons"></i>Dégustez au restaurant</p>
 	</div>
 	</section>
     <section class="preview">
     <h2>Restaurants</h2>
 	<div class="block_restaurant">
-					<a href="#">
+					<a href="page1.html">
 						<article class="restaurant">
 							<div class="news">
 								<img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="palette">
@@ -47,7 +50,7 @@
 								<p class="city">Ménilmontant</p>
 						</article>
 					</a>
-					<a href="#">
+					<a href="page2.html">
 						<article class="restaurant">
 							<div class="news">
 							<img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="note">
@@ -58,7 +61,7 @@
 								<p class="city">Charonne</p>
 						</article>
 					</a>
-					<a href="#">
+					<a href="page3.html">
 						<article class="restaurant">
 							<img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="française">
 							<div class="icons_title">
@@ -66,7 +69,7 @@
 								<p class="city">Cité Rouge</p>
 						</article>
 					</a>
-					<a href="#">
+					<a href="page4.html">
 						<article class="restaurant">
 							<img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="délice">
 							<div class="icons_title">
@@ -81,7 +84,7 @@
 		<p><i class="fas fa-utensils"></i>Proposer un restaurant</p>
 		<p><i class="fas fa-hands-helping"></i>Devenir partenaire</p>
 		<p>Mentions légales</p>
-		<p><a href='exemple@exemple.com'>Contact</a></p>
+		<p><a href="mailto:contact@ohmyfood.com">Contact</a></p>
 	</footer>
 
 </div>

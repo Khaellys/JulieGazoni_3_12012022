@@ -1,19 +1,24 @@
-.liste
-{
-    justify-content: space-around;
+.liste {
+  max-width: 992px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
 }
 
-.fonctionnement p
-{
-    width: 22%;
+.block_restaurant {
+  justify-content: space-around;
 }
 
-.preview h2
-{
-    text-align: center;
+h2 {
+  text-align: center;
 }
 
-.block_restaurant
-{
-    justify-content: space-around;
-}
+/*# sourceMappingURL=tablette.css.map */
+/*# sourceMappingURL=tablette.css.map */
+/*# sourceMappingURL=tablette.css.map */
+/*# sourceMappingURL=tablette.css.map */
+/*# sourceMappingURL=tablette.css.map */
+/*# sourceMappingURL=tablette.css.map */
+
+/*# sourceMappingURL=tablette.css.map */
