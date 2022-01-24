@@ -28,6 +28,142 @@
 }
 /*-------Mixin-------*/
 /*-------Chartre graphique-------*/
+/*-------Loading-------*/
+#loading-wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  animation: displayfade 600ms 1.5s forwards;
+  background-color: #99E2D0;
+  z-index: 1000;
+}
+
+@keyframes displayfade {
+  to {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+.displayfade {
+  animation: displayfade 1s;
+  opacity: 0;
+  z-index: -1;
+}
+
+#loading-text {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: black;
+  width: 100px;
+  height: 30px;
+  margin: -7px 0 0 -45px;
+  text-align: center;
+  font-family: "Shrikhand-Regular", sans-serif;
+  font-size: 20px;
+}
+
+#loading-content {
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 170px;
+  height: 170px;
+  margin: -85px 0 0 -85px;
+  border: 3px solid transparent;
+}
+
+#loading-content:after {
+  content: "";
+  position: absolute;
+  border: 3px solid transparent;
+  left: 15px;
+  right: 15px;
+  top: 15px;
+  bottom: 15px;
+}
+
+#loading-content:before {
+  content: "";
+  position: absolute;
+  border: 3px solid transparent;
+  left: 5px;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+  z-index: 1000;
+}
+
+#loading-content {
+  border: 3px solid transparent;
+  border-top-color: #9356DC;
+  border-bottom-color: #9356DC;
+  border-radius: 50%;
+  -webkit-animation: loader 2s linear infinite;
+  -moz-animation: loader 2s linear infinite;
+  -o-animation: loader 2s linear infinite;
+  animation: loader 2s linear infinite;
+}
+
+#loading-content:before {
+  border: 3px solid transparent;
+  border-top-color: #FF79DA;
+  border-bottom-color: #FF79DA;
+  border-radius: 50%;
+  -webkit-animation: loader 3s linear infinite;
+  -moz-animation: loader 2s linear infinite;
+  -o-animation: loader 2s linear infinite;
+  animation: loader 3s linear infinite;
+}
+
+#loading-content:after {
+  border: 3px solid transparent;
+  border-top-color: #008766;
+  border-bottom-color: #008766;
+  border-radius: 50%;
+  -webkit-animation: loader 1.5s linear infinite;
+  animation: loader 1.5s linear infinite;
+  -moz-animation: loader 2s linear infinite;
+  -o-animation: loader 2s linear infinite;
+}
+
+@-webkit-keyframes loaders {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+#content-wrapper {
+  position: fixed;
+  left: 0;
+  top: 20px;
+  width: 100%;
+  height: 100%;
+}
+
 /*-------Général-------*/
 body {
   font-family: "robotolight";
@@ -231,9 +367,10 @@ button {
 .fa-heart:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: #9356DC;
-  background-color: #9356DC;
-  transition: background-color 850ms;
+  /*color: $primary-color;
+  background-color: $primary-color;*/
+  background-image: radial-gradient(ellipse farthest-corner at bottom right, #9356DC, #FF79DA);
+  transition: 450ms;
   opacity: 1;
 }
 
@@ -277,6 +414,10 @@ footer a {
   padding-right: 13px;
 }
 
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
