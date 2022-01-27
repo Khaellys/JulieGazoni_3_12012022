@@ -73,12 +73,12 @@ $tertiary-color: #99E2D0;
     left: 0;
     top: 0;
     opacity: 1;
-    animation: displayfade 600ms 1.50s forwards;
+    animation: disappear 600ms 1.50s forwards; /*nom - délai - valeur de fin de l’animation comme valeur après que l’animation soit terminée*/
     background-color: $tertiary-color;
-	z-index: 1000;
+	z-index: 1000; /*passe au-dessus de la page*/
   }
 
-  @keyframes displayfade
+  @keyframes disappear
 {
     to 
     {
@@ -87,9 +87,9 @@ $tertiary-color: #99E2D0;
     }
 }
 
-.displayfade
+.disappear
 {
-	animation: displayfade 1s;
+	animation: disappear 1s;
   	opacity: 0;z-index:-1;        
 }
   
@@ -149,7 +149,7 @@ $tertiary-color: #99E2D0;
     -webkit-animation: loader 2s linear infinite;
     -moz-animation: loader 2s linear infinite;
     -o-animation: loader 2s linear infinite;
-    animation: loader 2s linear infinite;
+    animation: loader 2s linear infinite; /*nom - durée - sens de lecture - fill mode*/
   }
   
   #loading-content:before {
@@ -317,6 +317,7 @@ button
 {
 	padding-left: 20px;
 	padding-top: 30px;
+	padding-bottom: 30px;
 	
 }
 .fonctionnement h2
@@ -326,6 +327,7 @@ button
 
 .fonctionnement .liste
 {
+	width: 1200px;
 	display: flex;
     justify-content: space-around;
 	margin: auto;
@@ -370,10 +372,11 @@ button
 
 .preview
 {
+	margin: auto;
 	background-color: #F6F6F6;
 	padding-top: 30px;
 	padding-bottom: 60px;
-	margin-top: 40px;
+	max-width: 1200px;
 }
 
 .preview a
@@ -383,7 +386,7 @@ button
 
 .preview h2
 {
-	padding-left: 20px;
+	text-align: center;
 }
 
 .block_restaurant
@@ -391,7 +394,7 @@ button
 	display: flex;
 	flex-wrap: wrap;
 	align-items: stretch;
-	justify-content: space-between;
+	justify-content: space-around;
 	padding: 0 20px;
 }
 

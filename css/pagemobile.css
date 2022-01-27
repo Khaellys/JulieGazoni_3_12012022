@@ -17,14 +17,8 @@
   z-index: 0;
 }
 
-.title {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-
-.fa-heart {
-  padding-top: 25px;
+.icons_title {
+  max-width: 380px;
 }
 
 .menu {
@@ -34,7 +28,9 @@
   bottom: 60px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  padding: 20px 0 5px 10px;
+  max-width: 100%;
+  width: 380px;
+  margin: auto;
 }
 
 .plat {
@@ -54,8 +50,22 @@
   margin-left: 12px;
 }
 
+article {
+  width: 380px;
+  max-width: 100%;
+  margin: auto;
+  align-items: inherit;
+}
+
 article h3 {
-  text-align: left;
+  border-bottom: 3px solid #99E2D0;
+  width: 45px;
+  padding-bottom: 5px;
+  margin-left: 10px;
+}
+
+hr {
+  display: none;
 }
 
 /*-------Bouton Commander-------*/
@@ -63,6 +73,30 @@ article h3 {
   margin-top: 20px;
 }
 
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
 /*# sourceMappingURL=pagemobile.css.map */
 /*# sourceMappingURL=pagemobile.css.map */
 /*# sourceMappingURL=pagemobile.css.map */

@@ -119,9 +119,10 @@ header
 .global
 {
     max-width: 100%;
-    text-align: center;
+    /*text-align: center;*/
     background-color: #f1f1f1;
     padding-bottom: 40px;
+    margin: auto;
 }
 
 .restaurant
@@ -131,23 +132,55 @@ header
     object-fit: cover;
 }
 
-.titre
+/*------- Placement & Animation coeur-------*/
+
+.icons_title
 {
 	display: flex;
-    justify-content: space-around;
-    width: 350px;
+	justify-content: space-around;
+	max-width: 70%;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: auto;
 }
 
-.fa-heart {
-    padding-top: 25px;
+.coeur
+{
+    padding-top: 20px;
+}
+
+.fa-heart, .vide
+{
+    padding-top: 0;
+}
+
+.plein
+{
+	opacity: 0;
+}
+
+.fa-heart:hover
+{
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	/*color: $primary-color;
+	background-color: $primary-color;*/
+	background-image: radial-gradient(ellipse farthest-corner at bottom right, $primary-color, $secondary-color);
+	transition: 450ms;
+	opacity: 1;
 }
 
 /*-------Section Carte des menus-------*/
 
-article
+.menu
 {
-    max-width: 1680px;
+    width: 1200px;
+    margin: auto;
+}
+
+article 
+{
+    width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -157,6 +190,7 @@ article
 h2
 {
     font-family: 'Shrikhand-Regular';
+    margin-top: 25px;
 }
 
 hr
