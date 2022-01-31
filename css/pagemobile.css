@@ -5,6 +5,18 @@
 }
 
 /*-------Section-------*/
+.menu_1 {
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+}
+
 .title {
   display: flex;
   justify-content: space-around;
@@ -78,6 +90,8 @@ h4 {
   margin-top: 20px;
 }
 
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
 /*# sourceMappingURL=pagemobile.css.map */
 /*# sourceMappingURL=pagemobile.css.map */
 
