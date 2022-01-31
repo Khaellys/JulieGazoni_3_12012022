@@ -117,11 +117,18 @@ header {
 /*-------Section Carte des menus-------*/
 .menu {
   max-width: 1200px;
+  background-color: #f1f1f1;
+  position: relative;
+  z-index: 1;
+  bottom: 60px;
   margin: auto;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 .menu_1 {
   display: flex;
+  justify-content: center;
 }
 
 article {
@@ -132,7 +139,7 @@ article {
   text-align: justify;
 }
 
-h2 {
+h1 {
   font-family: "Shrikhand-Regular";
   margin-top: 25px;
 }
@@ -146,7 +153,6 @@ hr {
 }
 
 .plat {
-  border: solid 1px transparent;
   border-radius: 15px;
   margin: 20px;
   width: 350px;
@@ -297,14 +303,6 @@ footer a {
   padding-right: 13px;
 }
 
-/*# sourceMappingURL=page.css.map */
-/*# sourceMappingURL=page.css.map */
-/*# sourceMappingURL=page.css.map */
-/*# sourceMappingURL=page.css.map */
-/*# sourceMappingURL=page.css.map */
-/*# sourceMappingURL=page.css.map */
-/*# sourceMappingURL=page.css.map */
-/*# sourceMappingURL=page.css.map */
 /*# sourceMappingURL=page.css.map */
 
 /*# sourceMappingURL=page.css.map */
