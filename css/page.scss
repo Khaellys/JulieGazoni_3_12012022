@@ -174,13 +174,13 @@ header
 
 .menu
 {
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
 }
 
 article 
 {
-    width: 1200px;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -202,25 +202,38 @@ hr
     background-color: $tertiary-color;
 }
 
-span
-{
-    font-weight: bold;
-}
-
 .plat
 {
     border: solid 1px transparent;
     border-radius: 15px;
-    padding: 5px 30px;
     margin: 20px;
     width: 350px;
+    height: 80px;
     display: flex;
-    flex-direction: column;
     background-color: white;
+    overflow: hidden;
+    cursor: pointer;
     @include shadow;
 }
 
-.nom p, .description p
+h3
+{
+    font-family: 'robotolight';
+    font-weight: normal;
+}
+
+h4
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p
+{
+    margin-bottom: 10px;
+}
+
+h4, p
 {
     white-space: nowrap;
     overflow: hidden;
@@ -229,22 +242,51 @@ span
 
 .description
 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
-    flex-wrap: nowrap;
-}
-
-.description p
-{
-    width: 280px;
+    flex-grow: 1;
+    width: 200px;
+    padding-left: 10px;
 }
 
 .prix
 {
-    text-align: end;
+    font-weight: bold;
+    width: 80px;
+    padding-top: 30px;
+    text-align: center;
 }
+
+/*-------Icône Check-------*/
+
+.hidden_check
+{
+    display: flex;
+    width: 0;
+    background-color: $tertiary-color;
+    transition: all .5s ease-in-out;
+    
+    .check1
+{
+    color: $tertiary-color;
+    border-radius: 50px;
+    background-color: white;
+    border: 2px solid transparent;
+    margin: auto;
+    padding: 3px 4px;
+    transition: all .5s ease-in-out;
+    animation-direction: alternate-reverse;
+    transform: rotate(360deg);
+}
+}
+
+.plat:hover > .hidden_check
+{
+    width: 100px; 
+}
+
+.plat:hover .check1
+    {
+        transform: rotate(0deg);
+    }
 
 /*-------Bouton Commander-------*/
 

@@ -262,7 +262,7 @@ button {
 }
 
 .fonctionnement .liste {
-  width: 1200px;
+  max-width: 1200px;
   display: flex;
   justify-content: space-around;
   margin: auto;
@@ -420,8 +420,6 @@ footer a {
   padding-right: 13px;
 }
 
-/*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */

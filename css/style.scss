@@ -327,7 +327,7 @@ button
 
 .fonctionnement .liste
 {
-	width: 1200px;
+	max-width: 1200px;
 	display: flex;
     justify-content: space-around;
 	margin: auto;
@@ -381,7 +381,7 @@ button
 
 .preview a
 {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .preview h2
@@ -419,7 +419,7 @@ button
 
 .name
 {
-    font-family: 'robotobold';
+  font-family: 'robotobold';
 	margin-bottom: 3px;
 }
 
