@@ -109,8 +109,6 @@ header {
 .fa-heart:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  /*color: $primary-color;
-  background-color: $primary-color;*/
   background-image: radial-gradient(ellipse farthest-corner at bottom right, #9356DC, #FF79DA);
   transition: 450ms;
   opacity: 1;
@@ -164,7 +162,6 @@ h3 {
 
 h4 {
   margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 p {
@@ -190,7 +187,34 @@ h4, p {
   text-align: center;
 }
 
-/*-------Icône Check-------*/
+/*-------Animation Apparition Menus-------*/
+.entrees {
+  opacity: 0;
+  animation: 3s forwards appear;
+  animation-delay: 100ms;
+}
+
+.plats {
+  opacity: 0;
+  animation: 3s forwards appear;
+  animation-delay: 1s;
+}
+
+.desserts {
+  opacity: 0;
+  animation: 3s forwards appear;
+  animation-delay: 2s;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*-------Animation Check-------*/
 .hidden_check {
   display: flex;
   width: 0;
