@@ -5,12 +5,18 @@
 }
 
 /*-------Section-------*/
-h1 {
-  line-height: 2;
+.restaurant {
+  width: 100%;
 }
 
-.coeur {
-  padding-top: 40px;
+.icons_title h1 {
+  /*line-height: 2;*/
+  font-size: 1.8em;
+  padding-top: 20px;
+}
+
+.vide {
+  padding-top: 45px;
 }
 
 .menu_1 {
@@ -98,6 +104,8 @@ h4 {
   margin-top: 20px;
 }
 
+/*# sourceMappingURL=pagemobile.css.map */
+/*# sourceMappingURL=pagemobile.css.map */
 /*# sourceMappingURL=pagemobile.css.map */
 
 /*# sourceMappingURL=pagemobile.css.map */

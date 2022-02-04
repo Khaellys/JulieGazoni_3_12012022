@@ -6,14 +6,21 @@
 
 /*-------Section-------*/
 
-h1
+.restaurant
 {
-    line-height: 2;
+  width: 100%;
 }
 
-.coeur
+.icons_title h1
 {
-    padding-top: 40px;
+    /*line-height: 2;*/
+    font-size: 1.8em;
+    padding-top: 20px;
+}
+
+.vide
+{
+    padding-top: 45px;
 }
 
 .menu_1

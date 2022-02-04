@@ -3,6 +3,10 @@ body {
   max-width: 992px;
 }
 
+.vide {
+  padding-top: 35px;
+}
+
 .menu {
   max-width: 100%;
 }
@@ -19,5 +23,7 @@ article {
 .plat {
   width: 70%;
 }
+
+/*# sourceMappingURL=pagetablette.css.map */
 
 /*# sourceMappingURL=pagetablette.css.map */
