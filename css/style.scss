@@ -442,21 +442,50 @@ button
 	width: 380px;
 }
 
-.vide
+.fa-heart
 {
   padding-top: 20px;
 }
 
-.vide:hover {
-  font-weight: 900;
-  background: radial-gradient(ellipse farthest-corner at bottom right, $primary-color, $secondary-color);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-  transition-duration: 850ms;
-  -webkit-transition-duration: 850ms;
+.fa-heart:hover 
+{
+  animation: filledhearts 1s linear backwards;
 }
+
+@keyframes filledhearts {
+  0% {
+    font-weight: 900;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    transition-duration: 600ms;
+    -webkit-transition-duration: 600ms;
+    opacity: 0;
+  }
+  90% {
+    font-weight: 900;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    transition-duration: 600ms;
+    -webkit-transition-duration: 600ms;
+    opacity: 1;
+  }
+  100% {
+    background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    opacity: 0;
+  }
+  }  
 
 /*-------Insert logo Nouveau-------*/
 
