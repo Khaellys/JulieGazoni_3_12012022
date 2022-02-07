@@ -137,7 +137,7 @@ header
 {
 	display: flex;
 	justify-content: space-around;
-	max-width: 70%;
+	max-width: 50%;
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
@@ -154,39 +154,39 @@ header
 }
 
 @keyframes filledhearts {
-  0% {
-    font-weight: 900;
-    background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-    transition-duration: 600ms;
-    -webkit-transition-duration: 600ms;
-    opacity: 0;
-  }
-  90% {
-    font-weight: 900;
-    background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-    transition-duration: 600ms;
-    -webkit-transition-duration: 600ms;
-    opacity: 1;
-  }
-  100% {
-    background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-    transition-duration: 1s;
-    -webkit-transition-duration: 1s;
-    opacity: 0;
-  }
-  }
+    0% {
+        font-weight: 900;
+        background: -webkit-gradient(linear, left top, left bottom, from($primary-color), to($secondary-color));
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+        transition-duration: 600ms;
+        -webkit-transition-duration: 600ms;
+        opacity: 0;
+      }
+      90% {
+        font-weight: 900;
+        background: -webkit-gradient(linear, left top, left bottom, from($primary-color), to($secondary-color));
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+        transition-duration: 600ms;
+        -webkit-transition-duration: 600ms;
+        opacity: 1;
+      }
+      100% {
+        background: -webkit-gradient(linear, left top, left bottom, from($primary-color), to($secondary-color));
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+        transition-duration: 1s;
+        -webkit-transition-duration: 1s;
+        opacity: 0;
+      }
+      }
 
 /*-------Section Carte des menus-------*/
 
@@ -342,7 +342,7 @@ h4, p
 
 .plat:hover .check1
 {
-        transform: rotate(0deg);
+    transform: rotate(0deg);
 }
 
 /*-------Bouton Commander-------*/
