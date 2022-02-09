@@ -100,7 +100,6 @@ $tertiary-color: #99E2D0;
     height: 170px;
     margin: -85px 0 0 -85px;
     border: 3px solid transparent;
-    
   }
   
   #loading-content:after {
@@ -111,7 +110,6 @@ $tertiary-color: #99E2D0;
     right: 15px;
     top: 15px;
     bottom: 15px;
-    
   }
   
   #loading-content:before {
@@ -145,7 +143,6 @@ $tertiary-color: #99E2D0;
       -moz-animation: loader 2s linear infinite;
     -o-animation: loader 2s linear infinite;
     animation: loader 3s linear infinite;
-    
   }
   
   #loading-content:after {
@@ -164,7 +161,6 @@ $tertiary-color: #99E2D0;
       -webkit-transform: rotate(0deg);
       -ms-transform: rotate(0deg);
       transform: rotate(0deg);
-      
     }
     100% {
       -webkit-transform: rotate(360deg);
@@ -178,7 +174,6 @@ $tertiary-color: #99E2D0;
       -webkit-transform: rotate(0deg);
       -ms-transform: rotate(0deg);
       transform: rotate(0deg);
-      
     }
     100% {
       -webkit-transform: rotate(360deg);
@@ -191,15 +186,16 @@ $tertiary-color: #99E2D0;
   {
       to 
       {
-          opacity: 0;
-          z-index:-1;
+        opacity: 0;
+        z-index:-1;
       }
   }
   
   .disappear
   {
     animation: disappear 1s;
-      opacity: 0;z-index:-1;        
+    opacity: 0;
+    z-index:-1;        
   }
 
 /*-------Général-------*/
@@ -223,11 +219,10 @@ a
 {
 	color: black;
 	text-decoration: none;
-}
-
-a:visited
-{
-	color: black;
+  &:visited
+  {
+    color: black;
+  }
 }
 
 h2
@@ -427,11 +422,10 @@ p
 .fa-heart
 {
   padding-top: 20px;
-}
-
-.fa-heart:hover 
-{
-  animation: filledhearts 1s linear backwards;
+  &:hover
+  {
+    animation: filledhearts 1500ms ease-out forwards;
+  }
 }
 
 @keyframes filledhearts {
@@ -458,6 +452,7 @@ p
     opacity: 1;
   }
   100% {
+    font-weight: 900;
     background: -webkit-gradient(linear, left top, left bottom, from($primary-color), to($secondary-color));
     background-clip: text;
     -webkit-background-clip: text;
@@ -465,7 +460,7 @@ p
     -webkit-text-fill-color: transparent;
     transition-duration: 1s;
     -webkit-transition-duration: 1s;
-    opacity: 0;
+    opacity: 1;
   }
   }
 

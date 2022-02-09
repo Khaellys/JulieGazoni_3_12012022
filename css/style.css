@@ -356,7 +356,7 @@ button {
 }
 
 .fa-heart:hover {
-  animation: filledhearts 1s linear backwards;
+  animation: filledhearts 1500ms ease-out forwards;
 }
 
 @keyframes filledhearts {
@@ -383,6 +383,7 @@ button {
     opacity: 1;
   }
   100% {
+    font-weight: 900;
     background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
     background-clip: text;
     -webkit-background-clip: text;
@@ -390,7 +391,7 @@ button {
     -webkit-text-fill-color: transparent;
     transition-duration: 1s;
     -webkit-transition-duration: 1s;
-    opacity: 0;
+    opacity: 1;
   }
 }
 /*-------Insert logo Nouveau-------*/
@@ -434,6 +435,27 @@ footer a {
   padding-right: 13px;
 }
 
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
