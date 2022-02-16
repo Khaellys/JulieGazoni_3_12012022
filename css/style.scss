@@ -10,7 +10,6 @@
          url('../polices/Roboto-Light-webfont.svg#robotolight') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -23,7 +22,6 @@
          url('../polices/Roboto-Regular-webfont.svg#robotoregular') format('svg');
     
     font-style: normal;
-
 }
 
 @font-face {
@@ -35,7 +33,6 @@
          url('../polices/Roboto-Bold-webfont.ttf') format('truetype'),
          url('../polices/Roboto-Bold-webfont.svg#robotobold') format('svg');
     font-weight: normal;
-
 }
 
 @font-face {
@@ -74,7 +71,7 @@ $tertiary-color: #99E2D0;
     opacity: 1;
     animation: disappear 600ms 1.50s forwards; 
     background-color: $tertiary-color;
-	z-index: 1000; 
+	  z-index: 1000; 
   }
   
   #loading-text {
