@@ -288,6 +288,24 @@ button {
   padding-right: 20px;
 }
 
+.liste p {
+  -webkit-box-shadow: 1px 10px 12px 4px rgba(190, 190, 190, 0.55);
+  box-shadow: 1px 10px 12px 4px rgba(190, 190, 190, 0.55);
+  cursor: pointer;
+}
+
+.liste p a {
+  color: white;
+  font-weight: bold;
+}
+
+.liste p:hover {
+  opacity: 0.75;
+  -webkit-box-shadow: 1px 10px 12px 4px rgba(4, 4, 4, 0.55);
+  box-shadow: 1px 10px 12px 4px rgba(4, 4, 4, 0.55);
+  transition-duration: 400ms;
+}
+
 /*-------Bloc Preview-------*/
 .preview {
   margin: auto;
@@ -435,6 +453,9 @@ footer a {
   padding-right: 13px;
 }
 
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
 /*# sourceMappingURL=style.css.map */
